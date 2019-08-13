@@ -1,0 +1,29 @@
+Alumnos: Caballero Montaño Montserrat y De La Cruz Flores Hugo Alberto
+
+Respuestas a las preguntas de la práctica:
+
+(a) Cuál es la razón principal de usar Linux en el diseño de sistemas embebidos?
+- Linux puede ser desarrollado sin ningún tipo de regalias.
+-  Linux soporta una gran variedad de dispositivos de hardware, incluyendo la mayoría de las architecturas de CPUs.
+- Soporta una gran variedad de protocolos de red. 
+- Los usuarios pueden personalizar el Stack para que se ajuste exactamente a sus requerimientos.
+- Puede escalar desde sistemas simples de una CPU hasta sistemas multicore, con grandes memorias, varias interfaces de red.
+- Es de código libre.
+- Hay demasiado soporte para Linux
+- Puede escalar desde sistemas simples de una CPU hasta sistemas multicore, con grandes memorias, varias interfaces de red
+
+* Referencia: https://github.com/ASTROINGENIERIA/ASTROUFRO/wiki/Linux-para-Sistemas-Embebidos
+
+(b) Investigue los métodos (formas) para conectarse a un Raspberry Pi
+-Físicos
+	* 4 puertos USB
+	* Un conector HDMI
+	* Ethernet
+	* Wireless
+- Software
+	* SSH
+	* VNC
+	* RDP
+
+* Referencia: http://culturacion.com/raspberry-pi-que-es-caracteristicas-y-precios/
+			  https://www.redeszone.net/2017/05/12/controlar-remota-linux-raspberry-pi/
