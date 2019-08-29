@@ -1,7 +1,7 @@
-	.text
-	.global _start
+	.text			@Inicia la parte de codigo 
+	.global _start	@Etiqueta disponible para todo el programa
 
-_start:
+_start:				@Etiqueta de inicio
 	mov	r7,#4		@r7 <- 4 Escritura para syscall
 	mov	r0,#1		@r0 <- 1 LLamada a stdout
 	ldr	r1,=message	@r1 <- &message direccióon de mem. con el mensaje 
@@ -13,5 +13,5 @@ _start:
        
 	.data			@Declarar y almacenar datos
 
-message:
+message:			@Mensaje que se va a imprimir
        .ascii "\nFSE2020-1 IS COOL\n\n"
