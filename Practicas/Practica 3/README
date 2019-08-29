@@ -1,0 +1,54 @@
+FSE 2020-1 Practica 3
+
+Caballero Montano Montserrat
+De La Cruz Flores Hugo Alberto
+
+Comentarios
+
+-Pregunta 1: ¿Cual es la diferencia entre las instrucciones swi 0x0, svc #0 y bx lr?
+SWI es una interrupcion via software que permite reiniciar el microcontrolador cuando se le indican varios parametros, cuando usamos esta interrupcion para reiniciar el micro, esta llama al modo de supervisor al final de el codigo de la misma.
+
+El reinicio curre cuando se afirma el pin de reinicio del procesador o Para señalizacion Encendido
+	-Para reiniciar como si el procesador acabara de encenderse
+Reinicio de software
+	-Se puede hacer haciendo un salto al vector de reinicio (0x0000) 
+
+En contraste con lo anterior, bx es una bifurcación y tratará la siguiente instrucción como ARM , luego, como lr generalmente contiene la dirección de retorno, significa que se trata de un retorno de una función, y si lsb de lr es 1, tratará el código en esa dirección como un retorno de llamada a función.
+
+
+-Pregunta 2: ¿A que se refiere la instruccion .balign 4 en el lenguaje ensamblador para ARM?
+Use las directivas de alineación para asegurarse de que sus datos y código estén alineados con los límites apropiados. Esto normalmente se requiere en las siguientes circunstancias:
+
+En el código T32, la instrucción ADR y la versión relativa a PC de la instrucción LDR solo pueden hacer referencia a direcciones que están alineadas con 4 bytes, pero una etiqueta dentro del código T32 podría estar solo alineada con 2 bytes. Use .balign 4 para garantizar la alineación de 4 bytes de una dirección dentro del código T32.
+
+-Pregunta 3 ¿Cuantas instrucciones en lenguaje ensamblador hay para la arquitectura ARM11 y cuantos modos de direccionamiento hay (nombrelos)?
+
+Soportan 33 instrucciones, con algunos controladores soportando una extensión THUMB-2.
+
+ADC, ADD, AND, B, BIC, BL, BX, CDP, CMN, CMP, EOR, LDC, LDM, LDR, MCR, MLA, MOV, MRC, MRS, MSR, MUL, MVN, ORR, RSB, RSC, SBC, STC, STM, STR, SUB, SWI, SWP, TEQ, TST,
+
+MODOS DE DIRECCIONAMIENTO 
+		Inmediato
+		Directo Registro
+		Indirecto registro
+		Indirecto registro con desplazamiento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
