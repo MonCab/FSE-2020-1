@@ -18,8 +18,8 @@
 #define LOW  0
 #define HIGH 1
 
-#define PIN  24 /* P1-18 */
-#define POUT 18  /* P1-07 */
+#define PIN  21 /* P1-18 */
+#define POUT 24  /* P1-07 */
 
 static int
 GPIOExport(int pin)
@@ -157,12 +157,6 @@ main(int argc, char *argv[])
 		 */
 		if (-1 == GPIOWrite(POUT, 1))
 			return(3);
-
-		/*
-		 * Read GPIO value
-		 
-		printf("I'm reading %d in GPIO %d\n", GPIORead(PIN), PIN);*/
-
 		
 		usleep(500000);
 

@@ -1,0 +1,18 @@
+Fundamentos de Sistemas Embebidos PRACTICA 3
+
+Nombres: Caballero Montaño Montserrat y De La Cruz Flores Hugo Alberto
+
+
+Respuesta a las preguntas:
+
+(a) ¿Cuántas formas de configurar y programar hay disponibles en la raspberry pi?
+	Dos formas en ambas:
+		* GUI
+		* Consola
+
+(b) ¿Qué es el sistema de archivos sysfs?
+	Encontramos información variada sobre dispositivos. Entre esos datos podemos ver el estado de los mismos (en funcionamiento o no), el fabricante y modelo, y el bus al que están conectados.
+	Suvdirectorios incluidos: block, bus, class, dev, devices, firmware, fs,, hypervisor, kernel, module y power.
+
+(c) ¿Cuáles son los lenguajes de programación más comunes para configurar y programar los GPIO?
+	Python y C.

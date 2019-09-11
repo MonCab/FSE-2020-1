@@ -18,8 +18,8 @@
 #define LOW  0
 #define HIGH 1
 
-#define PIN  24 /* P1-18 */
-#define POUT 4  /* P1-07 */
+#define PIN  21 /* P1-18 */
+#define POUT 24  /* P1-07 */
 
 static int
 GPIOExport(int pin)
