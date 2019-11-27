@@ -15,4 +15,4 @@ Desarrollo de la práctica:
 	* El segundo recibe una cadena y se lee por el UART, después se analizá y se manda el resultado por UART para observarlo en minicom o termite.
 
 * Link al video:
-	
+	https://youtu.be/Tt1Zlz73bSg
